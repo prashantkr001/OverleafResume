@@ -1,0 +1,192 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Twenty Seconds Resume/CV
+% LaTeX Template
+% Version 1.0 (14/7/16)
+%
+% Original author:
+% Carmine Spagnuolo (cspagnuolo@unisa.it) with major modifications by 
+% Vel (vel@LaTeXTemplates.com) and Harsh (harsh.gadgil@gmail.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[letterpaper]{twentysecondcv} % a4paper for A4
+
+% Command for printing skill overview bubbles
+\newcommand\skills{ 
+~
+	\smartdiagram[bubble diagram]{
+        \textbf{~Software~}\\\textbf{~Developer~}\\\textbf{(Confident)},
+        \textbf{~~Data Structure~~~}\\\textbf{~~(Enthusiast)~~},
+        \textbf{~~Programming~~}\\\textbf{~and Coding~}\\\textbf{(Passionate)},
+        \textbf{~~~Machine~~~}\\{~~~\textbf{Learning}~~~}\\\textbf{~~~(Beginner)~~~},
+        \textbf{~Networking~}\\\textbf{(Intermediate)}
+    }
+}
+
+% Programming skill bars
+%\programming{{C $\textbullet$ C++  $\textbullet$ R / 3}, {JavaScript $\textbullet$ SQL $\textbullet$ \large \LaTeX / 3.5}, {Scala $\textbullet$ Java $\textbullet$ Python / 5}}
+
+
+%\programming{}
+
+
+% Projects text
+\education{
+ {\begin{itemize}
+ \item \textbf{B.TECH., IT} \textbf{(DGPA: 8.40)} \\
+Netaji Subhash Engineering College \\
+WBUT  | 2013 - 2017 | Kolkata, WB
+\item\textbf{AISSCE, 12th Board} \textbf{( 81.2\%)} \\
+CBSE | 2012 | Ranchi, Jharkhand
+		\item\textbf{AISSE, 10th Board} \textbf{(CGPA: 9.0)} \\
+CBSE | 2010 | Ranchi, Jharkhand
+
+
+\end{itemize}}
+}
+}
+
+%----------------------------------------------------------------------------------------
+%	 PERSONAL INFORMATION
+%----------------------------------------------------------------------------------------
+% If you don't need one or more of the below, just remove the content leaving the command, e.g. \cvnumberphone{}
+
+\cvname{PRASHANT} % Your name
+\cvjobtitle{ R\&D Engineer 1 Software } % Job
+% title/career
+
+\cvlinkedin{/in/prashantkr001}
+%  \cvgithub{opensorceror}
+\cvnumberphone{(+91) 8017172549} % Phone number
+%  \cvsite{hgadgil.com} % Personal website
+\cvmail{prashantkr001@gmail.com} % Email address
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makeprofile % Print the sidebar
+ 
+%----------------------------------------------------------------------------------------
+%	 EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\section{Experience}
+
+\begin{twenty} % Environment for a list with descriptions
+
+	\twentyitem
+    	{Feb 2018 -}
+		{Present}
+        {R\&D Engineer 1 Software}
+        {\href{https://www.ixiacom.com/keysight-technologies/}{Ixia Technologies(Keysight Business)}}
+        {}
+        {
+        {\begin{itemize}
+        \item Automating entire regression process for product IxNetwork.
+        \item Developing new features for the regression platform (Pythar) currently used for running regressions. 
+        \item Developing the UI part of Pythar as per current requirements. 			\item Reduced time and effort  for QA engineers enabling them to work faster and with ease. 
+		\item Partial QA work for verifying new features and writing test case automation scripts in python for protocols like IPv4, DHCP, etc.
+		\item \textbf{Tools :} Python, Data Structure, JAVA, Sencha GXT 3, Eclipse.
+    \end{itemize}}
+        }
+    \\   
+    \twentyitem
+   		{Aug 2017 -}
+		{Jan 2018}
+        {Software Engineer 1}
+        {\href{https://www.ixiacom.com/}{Ixia Technologies}}
+        {}
+        {
+        {\begin{itemize}
+        \item Implemented POC of an idea stating method for verifying uniformity of product behavior in the newer versions using statistical methods.
+		\item Proposed and demonstrated a uniform structure for writing scripts across all QA engineers reducing time, effort and making it easy to maintain in future.
+		\item Developed utility libraries using Python and TCL for test scripts.
+        \item Mentoring an intern associated with my team.
+		\item \textbf{Tools :} Python, Data Structure, File handling, CentOs7.
+    \end{itemize}}
+        }
+     \\
+     \twentyitem
+   		{Sept 2016 -}
+		{July 2017}
+        {Full time Intern (Middleware Developer)}
+        {\href{https://www.ixiacom.com/}{Ixia Technologies}}
+        {}
+        {
+        \begin{itemize}
+        \item Associated with middleware development of Ixia's network visibility tool TrafficREWIND.
+	\item  Expanded CLI commands, introduced new configuration options during OVA deployment, bug fixes.
+        \item Developed API endpoints for master slave communication in new distributed architecture of TrafficREWIND (TR Scale-Out).
+		\item Proposed and implemented "Notification Management" for TR Scale-Out.
+		\item \textbf{Tools :} Python, Data Structure, RESTful, FLASK, sqlite3 database.
+%         \item Demonstrated that rewriting an in-house test framework for \href{https://www.microsoft.com/en-ca/dynamics/erp-ax-overview.aspx}{Microsoft Dynamics AX}.
+    \end{itemize}
+    	}
+        
+	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
+\end{twenty}
+
+%----------------------------------------------------------------------------------------
+%	 PROJECTS
+%----------------------------------------------------------------------------------------
+\section{Projects}
+\begin{twenty}
+     \twentyitem
+   		{29 - 31 AUG}
+		{2018}
+        {Replaying packet captures on Time Sensitive Network (TSN)}
+        {\href{https://www.ixiacom.com/keysight-technologies/}{Ixia}}
+        {}
+        {
+        {\begin{itemize}
+        \item
+        Identified various TSN metrics like schedule pattern, cycle time, frame rate, etc. from a TSN Packet Capture. \item Used these matrices to configure IxNetwork and a DUT to successfully replicate the scenario from which capture was originally taken.\end{itemize}}
+        }
+   \\
+	\twentyitem
+    	{01 - 15 OCT}
+        {2016}
+        {Online Restaurant Management System}
+        {\href{http://www.nsic.co.in/NTSC/NTSC-Howrah.aspx/}{NSIC}}
+        {}
+        {{\begin{itemize}
+        \item
+       	Implemented this project with my team using JAVA and Mysql. I was responsible for operations related to database handling.
+ \end{itemize}}
+
+  }
+   
+\end{twenty}
+%----------------------------------------------------------------------------------------
+%	 RESEARCH
+%----------------------------------------------------------------------------------------
+\section{Research}
+\begin{twenty}
+	\twentyitem
+    	{2015 - 2016}
+		{}
+        {B.Tech Candidate}
+        {\href{http://www.nsec.ac.in/}{NSEC}}
+        {}
+        {
+       	\textbf{Topic}: Feature Selection using Ant Colony Optimization
+        {\begin{itemize}
+        \item Proposed a feature selection method to reduce the size of datasets to be used in supervised learning. \item The reduced dataset generated by algorithm performed comparably with  supervised learning methods used for classification like Logistic Regression, AdaBoost and Random Forest. 
+        \item \textbf{Tools :} Python, scikit-learn, pandas, numpy \vspace{2mm}
+		\end{itemize}}
+        }
+\end{twenty}
+
+
+% \section{Publications}
+% L. Antonie, H. Gadgil, G. Grewal, and K. Inwood, “Historical Data Integration - A Study of WWI Canadian Soldiers,” in 2016 IEEE 16th International Conference on Data Mining Workshops (ICDMW), pp. 186-193, IEEE, 2016. \vspace{2mm}
+
+\end{document} 
